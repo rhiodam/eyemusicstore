@@ -1,0 +1,11 @@
+LIST ERROR SELAMA CODING:
+
+
+1.org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 10 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 10; columnNumber: 80; cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'context:component-scan'.
+
+
+
+2.org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 18 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 30; cvc-complex-type.2.4.c: The matching wildcard is strict, but no declaration can be found for element 'mvc:annotation-driven'
+
+
+solusi 2 2 ny adalah coba di ketik ulang pas impor namespace nya..
